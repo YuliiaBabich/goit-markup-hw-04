@@ -54,7 +54,7 @@
         <section class="hero">
             <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions<br>for Your Business</h1>
-                <button type="button" class="hero-button button">
+                <button type="button" class="hero-button button" data-modal-open]>
                     Order Service
                 </button>
             </div>
@@ -270,34 +270,34 @@
                     <ul class="customers-list list">
                         <li class="customers-item item">
                             <svg class="customers-icons">
-                                <use href="./images/icons/icons.svg#icon-castomers1"></use>
+                                <use href="./images/icons.svg#icon-castomers1"></use>
                             </svg>
                         </li>
                         <li class="customers-item">
                             <svg class="customers-icons">
-                                <use href="./images/icons/icons.svg#icon-castomers2"></use>
+                                <use href="./images/icons.svg#icon-castomers2"></use>
                             </svg>
                         </li>
                         <li class="customers-item">
                             <svg class="customers-icons">
-                                <use href="./images/icons/icons.svg#icon-castomers3"></use>
+                                <use href="./images/icons.svg#icon-castomers3"></use>
                             </svg>
                         </li>
 
                         <li class="customers-item">
                             <svg class="customers-icons">
-                                <use href="./images/icons/icons.svg#icon-customers4v"></use>
+                                <use href="./images/icons.svg#icon-customers4v"></use>
                             </svg>
                         </li>
 
                         <li class=" customers-item">
                             <svg class="customers-icons">
-                                <use href="./images/icons/icons.svg#icon-castomers5"></use>
+                                <use href="./images/icons.svg#icon-castomers5"></use>
                             </svg>
                         </li>
                         <li class=" customers-item">
                             <svg class="customers-icons">
-                                <use href="./images/icons/icons.svg#icon-castomers6"></use>
+                                <use href="./images/icons.svg#icon-castomers6"></use>
                             </svg>
                         </li>
 
@@ -349,16 +349,18 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close-btn">
-                <svg class="modal-icons">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="modal-icon" widht="8" heght="8">
                     <use href="./images/icons.svg#icon-Xclose"></use>
                 </svg>
             </button>
         </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js">
+
+    </script>
 </body>
 
 </html>

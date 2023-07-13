@@ -518,30 +518,45 @@
         height: 100%;
         top: 0;
         background-color: rgba(47, 248, 248, 0.851);
+        transition: opacity 300ms linear, visibility 300ms linear;
+    }
 
-        .modal {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: 408px;
-            min-height: 584px;
-            border-radius: 4px;
-            background: #FCFCFC;
-            box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-        }
 
-        .modal-close-btn {
-            border: none;
-            background: none;
-            width: 24px;
-            height: 24px;
-            position: absolute;
-            top: 24px;
-            right: 24px;
-            cursor: pointer;
-        }
 
+    .modal {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        transition: transform 300ms linear;
+        width: 408px;
+        min-height: 584px;
+        border-radius: 4px;
+        background: #FCFCFC;
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+
+    }
+
+    .backdrop.is-hidden .modal {
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+    .modal-close-btn {
+        border: none;
+        background: transparent;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        cursor: pointer;
+    }
+
+    .is-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
     }
 
     /*?-----------------PORTFOLIO----------------*/
