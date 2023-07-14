@@ -328,6 +328,8 @@
     .doing-img {}
 
     /*----------------TEAM----------------*/
+    /*<div class="team-card-container container">
+         <div class="team-card-social-container container">*/
     .team-container {}
 
     .team {
@@ -358,8 +360,7 @@
         width: calc((100% - 3 * 24px) / 4);
     }
 
-    .team-card-container {
-        padding: 32px 0;
+
     }
 
     .team-img {}
@@ -375,13 +376,17 @@
         margin-bottom: 8px;
     }
 
-    .team-card-social-container {
+    /* .team-card-container {
+        padding: 32px 0;
+         .team-card-social-container {
         display: flex;
-        /* align-items: center;
+       align-items: center;
         justify-items: center;
         justify-content: space-between;*/
-        /*   position: relative;*/
-    }
+    /*   position: relative;*/
+
+
+
 
     /*-----ul-----*/
     .team-card-social-list {
@@ -396,12 +401,22 @@
 
     team-card-social-link {
         display: block;
+        width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .team-block {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        fill: #4D5AE5;
+        border: 12px solid #76f6f6;
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .team-social-icon {
-
-        /*position: absolute;*/
-
         width: 16px;
         height: 16px;
         fill: var(--iris-color);
