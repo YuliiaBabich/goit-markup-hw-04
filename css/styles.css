@@ -137,7 +137,7 @@
 
     .logo-accent {
         color: var(--color);
-        padding: 24px 0;
+        /*padding: 24px 0;*/
     }
 
     .header-navigation {
@@ -468,7 +468,6 @@
 
     .footer-container {
         display: flex;
-        gap: 120px;
         align-items: baseline;
     }
 
@@ -479,9 +478,9 @@
 
     .logo-accent.light {
         color: var(--ligft-ir-color);
-        width: 71px;
+        /* width: 71px;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center;*/
     }
 
     .footter-logo-link {
@@ -662,14 +661,6 @@
         overflow: hidden;
     }
 
-    .portfolio-img-card-container:hover .portfolio-cover-text {
-        transform: translateY(0%);
-    }
-
-    .portfolio-img-card-container:focus .portfolio-cover-text {
-        transform: translateY(0%);
-    }
-
     .portfolio-cover-text {
         position: absolute;
         top: 0;
@@ -701,11 +692,13 @@
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .portfolio-card-link:hover,
-    .portfolio-card-link:focus {
+    .portfolio-card-link:hover .portfolio-cover-text,
+    .portfolio-card-link:focus .portfolio-cover-text {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
+        transform: translateY(0%);
     }
+
+
 
     .portfolio-card-subtitle {
         color: var(--add-color);
