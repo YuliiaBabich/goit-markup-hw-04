@@ -662,9 +662,10 @@
         overflow: hidden;
     }
 
-    /*.portfolio-img-card-container:hover, .portfolio-img-card-container:focus .portfolio-cover-text {
+    .portfolio-img-card-container:hover,
+    .portfolio-img-card-container:focus .portfolio-cover-text {
         transform: translateY(0%);
-    }*/
+    }
 
     .portfolio-cover-text {
         position: absolute;
@@ -682,10 +683,10 @@
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .portfolio-cover-text:hover,
+    /* .portfolio-cover-text:hover,
     .portfolio-cover-text:focus .portfolio-cover-text {
         transform: translateY(0%);
-    }
+    }*/
 
 
     .portfolio-card-title {
