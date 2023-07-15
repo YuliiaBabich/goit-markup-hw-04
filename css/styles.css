@@ -683,7 +683,9 @@
     }
 
     .portfolio-cover-text:hover,
-    .portfolio-cover-text:focus {}
+    .portfolio-cover-text:focus {
+        transform: translateY(0%);
+    }
 
 
     .portfolio-card-title {
@@ -712,9 +714,7 @@
     }
 
     .portfolio-card-subtitle:hover,
-    .portfolio-card-subtitle:focus {
-        transform: translateY(0%);
-    }
+    .portfolio-card-subtitle:focus {}
 
 
     .portfolio-subile-link {}
