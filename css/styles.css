@@ -685,7 +685,7 @@
 
     .portfolio-cover-text:hover,
     .portfolio-cover-text:focus {
-        /*  transform: translateY(0);*/
+        transform: translateY(0);
     }
 
 
@@ -707,7 +707,7 @@
     .portfolio-card-link:hover,
     .portfolio-card-link:focus {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        transform: translateY(100%);
+
     }
 
     .portfolio-card-subtitle {
@@ -715,8 +715,7 @@
     }
 
     .portfolio-card-subtitle:hover,
-    .portfolio-card-subtitle:focus {
-        /*  transform: translateY(0%);*/
-    }
+    .portfolio-card-subtitle:focus {}
+
 
     .portfolio-subile-link {}
