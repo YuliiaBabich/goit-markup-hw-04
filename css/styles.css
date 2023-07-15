@@ -708,4 +708,8 @@
         color: var(--add-color);
     }
 
+    .portfolio-card-subtitle:focus {
+        transform: translateY(0%)
+    }
+
     .portfolio-subile-link {}
