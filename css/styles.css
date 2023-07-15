@@ -362,7 +362,6 @@
         justify-content: center;
         max-width: 232px;
         min-height: 40px;
-
     }
 
     .team-social-item {
@@ -684,9 +683,7 @@
     }
 
     .portfolio-cover-text:hover,
-    .portfolio-cover-text:focus {
-        transform: translateY(0);
-    }
+    .portfolio-cover-text:focus {}
 
 
     .portfolio-card-title {
@@ -715,7 +712,11 @@
     }
 
     .portfolio-card-subtitle:hover,
-    .portfolio-card-subtitle:focus {}
+    .portfolio-card-subtitle:focus {
+        transform: translateY(0%);
+    }
 
 
     .portfolio-subile-link {}
+
+    transform: translateY(0);
