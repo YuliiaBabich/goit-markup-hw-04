@@ -662,9 +662,9 @@
         overflow: hidden;
     }
 
-    .portfolio-img-card-container:hover .portfolio-cover-text {
-        transform: translateY(0);
-    }
+    /*.portfolio-img-card-container:hover, .portfolio-img-card-container:focus .portfolio-cover-text {
+        transform: translateY(0%);
+    }*/
 
     .portfolio-cover-text {
         position: absolute;
@@ -683,7 +683,7 @@
     }
 
     .portfolio-cover-text:hover,
-    .portfolio-cover-text:focus {
+    .portfolio-cover-text:focus .portfolio-cover-text {
         transform: translateY(0%);
     }
 
