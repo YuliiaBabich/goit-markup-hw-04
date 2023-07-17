@@ -161,6 +161,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-weight: 500;
     }
 
     .header-menu-link:hover,
@@ -226,6 +227,7 @@
         background-size: cover;
         max-width: 1440px;
         padding: 188px 0;
+        margin: 0 auto;
         /* background: repeat;*/
     }
 
@@ -291,19 +293,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 264px;
         height: 112px;
-        flex-shrink: 0;
         border-radius: 4px;
         background: var(--cloud, #F4F4FD);
         margin-bottom: 8px;
     }
 
-    .advantages-icons {
-        margin: 0 auto;
-        /* width: 64px;
-        height: 64px;*/
-    }
+    .advantages-icons {}
 
     /*!-----------------------DOING------------------*/
     .doing {
@@ -360,23 +356,20 @@
         display: flex;
         gap: 24px;
         justify-content: center;
-        max-width: 232px;
-        min-height: 40px;
     }
 
     .team-social-item {
-        display: flex;
-        width: calc((100% - 3 * 24px) / 4);
+        width: 40px;
+        height: 40px;
     }
 
     .team-card-social-link {
         display: flex;
-        width: 40px;
-        height: 40px;
+        width: 100%;
+        height: 100%;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        position: absolute;
         background-color: #4d5ae5;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -389,7 +382,6 @@
     .team-fio-container {
         display: block;
         padding: 32px 0;
-
     }
 
     .team-img {
@@ -667,7 +659,7 @@
         left: 0;
         color: #F4F4FD;
         background-color: var(--accent-color);
-        height: 300px;
+        height: 100%;
         font-family: Roboto;
         font-size: 16px;
         line-height: 1.5em;
